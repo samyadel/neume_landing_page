@@ -1,5 +1,5 @@
 // require("dotenv").config();
-require("dotenv").config({ path: __dirname + "/variables.env" });
+require("dotenv").config();
 const express = require("express");
 const path = require("path");
 const Mailchimp = require("mailchimp-api-v3");
